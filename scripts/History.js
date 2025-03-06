@@ -388,10 +388,10 @@ function addDeleteEventListeners() {
 function createHistoryList(trsnId, trsnDate, trsnMode, trsnAmount, trsnCatagory, trsnReason) {
     transactionDate = `${trsnDate}`;
     let li = document.createElement('li');
-    li.className = 'd-flex align-items-center gap-2 flex-wrap border shadow';
+    li.className = 'd-flex align-items-center flex-wrap border shadow m-0 my-2 px-3 py-0';
     li.id = trsnId;
     li.innerHTML = `
-        <div class="d-flex align-items-center justify-content-center">
+        <div class="d-flex align-items-center justify-content-center mx-1">
             <img src="./icons/Categorys/${trsnCatagory}.png" alt="${trsnCatagory}">
         </div>
 
@@ -412,7 +412,6 @@ function createHistoryList(trsnId, trsnDate, trsnMode, trsnAmount, trsnCatagory,
     UL.append(li);
     transactionDate = ``;
     addDeleteEventListeners();
-
 }
 
 // this function is used to display message when the transaction of paid or any other category are zero transaction to show on the screen 
