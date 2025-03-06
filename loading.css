@@ -1,0 +1,48 @@
+
+*{
+    padding: 0;
+    margin: 0;;
+}
+
+.loading-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    margin-top: 200px;
+    width: 100%;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.fs-12{
+    font-style: italic;
+    font-size: 12px;
+}
+
+.loader{
+    width: 30vh;
+    height: 1vh;
+    margin: 0 auto;
+    background: #DD9A5E;
+}
+
+.loader-fill{
+    width: 0;
+    height: 1vh;
+    margin: 0 auto;
+    background: #2ECC71;
+    animation: loading 2.5s infinite;
+}
+
+@keyframes loading {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 30vh;
+    }
+}

@@ -1,0 +1,337 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Images Class*/
+.image {
+    width: 60px;
+    height: 60px;
+}
+
+.info-icon {
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.back-button {
+    width: 19px;
+    height: 19px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.GoBackBtn {
+    width: 19px;
+    height: 19px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    cursor: pointer;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(116deg) brightness(109%) contrast(109%);
+}
+
+.cancel-icon {
+    border: 0;
+    width: 3vh;
+    height: 3vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.search-icon {
+    width: 25px;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.search-icon:hover {
+    opacity: 60%;
+}
+
+.filterButton {
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Delete Icon  */
+.deleteIcon {
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    filter: invert(20%) sepia(77%) saturate(3541%) hue-rotate(352deg) brightness(88%) contrast(93%);
+}
+
+.deleteTranaction {
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.deleteIcon:hover {
+    filter: unset;
+}
+
+/* Buttons  */
+.AnalysisButtons {
+    width: fit-content;
+    height: 5vh;
+    border-radius: 50%;
+    background: #f5f5f5;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .9);
+}
+
+/* Class for width  */
+.fullWidth {
+    width: 100%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.row-Width {
+    width: 120px;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+/* Border Classes  */
+.Border {
+    border: 2px solid black;
+}
+
+.border-50 {
+    border-radius: 50%;
+}
+
+.topLeftRightBorder {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+/* flex: 1 Class  */
+.flex-1 {
+    flex: 1;
+}
+
+/* flex grow class */
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-grow-2 {
+    flex-grow: 2;
+}
+
+.flex-grow-4 {
+    flex-grow: 4;
+}
+
+/* Bakcground color Classes   */
+.bg-light-white {
+    box-shadow: 0 0 1px black;
+    background: #ffffff;
+}
+
+.bg-whitesmoke {
+    background: #f5f5f5;
+}
+
+/* font size */
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-19 {
+    font-size: 19px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+/* font weight  */
+.fw-500 {
+    font-weight: bolder;
+}
+
+/* Margin Classes  */
+.mtb-5 {
+    margin: 5px 0;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mt-170 {
+    margin-top: 170px;
+}
+
+.overFlow-y-scroll {
+    overflow-y: scroll;
+}
+
+/* cursor pointer class  */
+.c-pointer {
+    cursor: pointer;
+}
+
+/* list type Class  */
+.lst-none {
+    padding: 8px 16px;
+    list-style-type: none;
+}
+
+/* Custom css for perticular elements  */
+
+.back-button:hover {
+    opacity: 40%;
+}
+
+#searchCatagory {
+    border: 0;
+    outline: 0;
+}
+
+#searchCatagory:hover {
+    opacity: 70%;
+    border: 0;
+    outline: 0;
+}
+
+#SearchLabel {
+    width: 80%;
+}
+
+#analysisButtons {
+    width: 90%;
+}
+
+#datesInputsBox {
+    width: 80%;
+}
+
+
+/* Shadow Class  */
+.Shadow {
+    box-shadow: 0 0 2px rgba(0, 0, 0, .9);
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .fs-25 {
+        font-size: 19px;
+    }
+
+    .back-button {
+        width: 15px;
+        height: 15px;
+    }
+
+    .w-35 {
+        width: 50%;
+    }
+
+    .row-Width {
+        border: 1px solid black;
+        width: 95px;
+    }
+
+    #SearchLabel {
+        width: 90%;
+    }
+
+    #analysisButtons {
+        width: 90%;
+    }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    .fs-25 {
+        font-size: 22px;
+    }
+
+    .back-button {
+        width: 15px;
+        height: 15px;
+    }
+
+    .w-35 {
+        width: 40%;
+    }
+
+    #SearchLabel {
+        width: 80%;
+    }
+
+    #analysisButtons {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .row-Width {
+        /* border: 2px solid black; */
+        width: 100px;
+    }
+}
